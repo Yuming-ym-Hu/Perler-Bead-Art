@@ -2,8 +2,6 @@
 
 Perler Bead Art is an immersive digital creation tool. It features a fluid, organic interactive experience that instantly transforms your photos into exquisite pixel (perler bead) art masterpieces.
 
-![Perler Bead Art Preview](preview.png)
-
 > **Note**: This project runs entirely client-side in the browser. It does **not** require a Google Gemini API key or any backend services. All image processing is handled securely on your local device.
 
 ## ✨ Core Features

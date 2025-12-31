@@ -200,7 +200,8 @@ export const drawFrame = (
     ctx.textBaseline = 'middle';
     
     const textCenterY = boxY + boxSize + (textHeight / 2);
-    ctx.fillText(name || 'Pixel Art', width / 2, textCenterY);
+    // Updated default name from 'Pixel Art' to 'Perler Bead Art'
+    ctx.fillText(name || 'Perler Bead Art', width / 2, textCenterY);
     ctx.restore();
 };
 
@@ -222,7 +223,8 @@ export const downloadPNG = (
     drawFrame(ctx, pixels, gridSize, gridSize * gridSize, isDarkMode, name, bgConfig);
 
     const link = document.createElement('a');
-    link.download = `${name || 'pixelflow'}.png`;
+    // Updated default filename
+    link.download = `${name || 'perler-bead-art'}.png`;
     link.href = canvas.toDataURL('image/png');
     link.click();
 };
